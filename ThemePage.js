@@ -15,38 +15,37 @@ const ThemePage = (props) => {
 
     return (
         
-        <div className="col-12 flex flex-column bg-blue-300 align-items-center">
-            <div className="card w-10 my-6">
-            <div className='w-1'><Link to='/dashboard'><div className='card mb-0 flex transition-colors transition-duration-100 bg-pink-500 hover:bg-pink-300 border-round font-bold flex align-items-center justify-content-center hover zoom' style={{ height: '2rem' }}><div className='text-900 font-big text-lg'>Back</div></div></Link></div>
-                <h3>Code Bridge Theming with PrimeReact</h3>
-                <p className="m-0 font-italic text-pink-500 hover:text-pink-700 text-xl">PrimeReact Access Link :"https://primereact.org/"</p>
-                <p className="m-0">1. Under Theming option, select the Visual Editor </p>
-                <p><div className="w-12 flex flex-column align-items-center">
+        <div className="col-12 flex flex-column align-items-center">
+            <div className="card w-10 md-6">
+                <h3 className="text-center">Code Bridge Theming with PrimeReact</h3>
+                <h3 className="m-0 font-italic">Go to PrimeReact : <a href="https://primereact.org/" class="m-0 font-italic text-pink-400 hover:text-pink-200">https://primereact.org/</a></h3>
+                <h3>1. Under Theming option, select the Visual Editor</h3>
+                <p><div className="w-12 flex flex-column align-items-center p-3">
                     <img src={VisualEditorSelection} alt="VEselection image" className="h-20rem" role="VisualEditorSelection-image" />
                 </div></p>
-                <p className="m-0">2. Choose any suitable theme for your website theme.</p>
-                <p><div className="w-12 flex flex-column align-items-center">
+                <h3>2. Choose any suitable theme for your website theme.</h3>
+                <p><div className="w-12 flex flex-column align-items-center p-3">
                     <img src={VEThemeSelection} alt="VEThemeselection image" className="h-25rem" role="VEThemeselection-image" />
                 </div></p>
-                <p className="m-0">3. Customize the theme on your preferences.</p>
-                <p><div className="w-12 flex flex-column align-items-center">
+                <h3>3. Customize the theme on your preferences.</h3>
+                <p><div className="w-auto flex flex-column align-items-center p-3">
                     <img src={VECustomize} alt="VECustomize image" className="h-25rem" role="VECustomize-image" />
                 </div></p>
-                <p className="m-0">4. Once done, Click the download button on the top to get the customize theme.</p>
-                <p><div className="w-12 flex flex-column align-items-center">
+                <h3>4. Once done, click the download button on the top to get the customize theme.</h3>
+                <p><div className="w-auto flex flex-column align-items-center p-3">
                     <img src={ThemeDownload } alt="ThemeDownload image" className="h-25rem" role="ThemeDownload-image" />
                 </div></p>
-                <p className="m-0">5. Once download, open the downloaded theme.css in Visual Studio Code</p>
-                <p><div className="w-12 flex flex-column align-items-center">
+                <h3>5. Once download, open the downloaded theme.css in Visual Studio Code</h3>
+                <p><div className="w-auto flex flex-column align-items-center p-3">
                     <img src={ThemeCompare } alt="ThemeCompare image" className="h-25rem" role="ThemeCompare-image" />
-                    <p className="m-0 font-bold font-italic text-pink-400">Note: Before change/replace the theme.css, compare the theme.css with the previous version of the .css </p>
+                    <p className="m-0 font-bold font-italic text-pink-400 ">Note: Before change/replace the theme.css, compare the theme.css with the previous version of the .css </p>
                 </div></p>
-                <p className="m-0">6. Implementation of Customize Theme on Website</p>
-                <p><div className="w-12 flex flex-column align-items-center">
-                    <img src={NoCustomTheme1 } alt="NoCustomTheme image" className="h-18rem" role="NoCustomTheme-image" />
-                    <p className="underline m-0">Before Apply Customize Theme</p>
+                <h3>6. Implementation of Customize Theme on Website</h3>
+                <p><div className="w-auto flex flex-column align-items-center p-3">
+                    <img src={NoCustomTheme1 } alt="NoCustomTheme image" className="h-20rem" role="NoCustomTheme-image" />
+                    <p className="m-0 p-2">Before Apply Customize Theme</p>
                     <img src={YesCustomTheme } alt="YesCustomTheme image" className="h-18rem" role="YesCustomTheme-image" />
-                    <p className="underline m-0">After Apply Customize Theme</p>
+                    <p className="m-0 p-2">After Apply Customize Theme</p>
                 </div></p>
             </div>
         </div>
